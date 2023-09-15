@@ -1,0 +1,23 @@
+.line{
+    border-bottom: 4px solid #2C3E50;
+    width: 80px;
+    margin: auto;
+}
+.text{
+    padding-top: 150px;
+    color:#2C3E50 ;
+    text-align: center;
+}
+.icon{
+    color:#2C3E50 ;
+}
+.layer{
+    background-color: #1abc9ce6;
+    width: 87.5%;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s all;
+}
+.photo:hover .layer{
+  opacity: 1;
+}

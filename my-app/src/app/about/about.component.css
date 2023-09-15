@@ -1,0 +1,10 @@
+#about{
+    background-color: #1ABC9C;
+}
+.line{
+    border-bottom: 5px solid white;
+    width: 80px;
+}
+.text{
+    padding-top: 200px;
+}

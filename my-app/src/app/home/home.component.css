@@ -1,0 +1,11 @@
+#home{
+    background-color:#1ABC9C;
+}
+.img{
+    width: 250px;
+    padding-top: 150px;
+}
+.line{
+    border-bottom: 5px solid white;
+    width: 80px;
+}

@@ -1,0 +1,16 @@
+#footer{
+    background-color: #2C3E50;
+}
+.card{
+    background-color: #2C3E50;
+    border: none;
+}
+.icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.footer2{
+    background-color: #1A252F;
+    padding: 20px;
+}

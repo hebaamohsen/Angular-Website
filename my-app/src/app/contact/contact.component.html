@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+        <div class="text">
+            <p class="fw-bolder fs-1">CONATCT SECTION</p>
+        </div>
+        <div class="icon d-flex">
+            <div class="line me-3"></div>
+            <i class="fa-solid fa-star "></i>
+            <div class="line ms-3"></div>
+        </div>
+        <form class="w-50 p-3 mx-auto mt-3">
+            <label  *ngIf="topStatuse == false" for="userName" class="position-relative top-0 __top">userName :</label>
+            <input    (keydown)="write()" id="userName" type="text" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 mb-3  position-relative ">
+            <label  *ngIf="topStatuse2 == false" for="userAge" class="position-relative top-0 __top">userAge : </label>
+            <input (keydown)="write2()" id="userAge" type="text" placeholder="userAge" name="userName" class="form-control border-0 border-bottom py-3 mb-3 position-relative ng-pristine ng-valid ng-touched">
+            <label  *ngIf="topStatuse3 == false" for="userEmail" class="position-relative top-0 __top">userEmail : </label>
+            <input  (keydown)="write3()" id="userEmail" type="text" placeholder="userEmail" name="userName" class="form-control border-0 border-bottom py-3 mb-3 position-relative ng-pristine ng-valid ng-touched">
+            <label *ngIf="topStatuse4 == false" for="userPassword" class="position-relative top-0 __top">userPassword : </label>
+            <input  (keydown)="write4()" id="userPassword" type="text" placeholder="userPassword" name="userName" class="form-control border-0 border-bottom py-3 mb-3 position-relative ng-pristine ng-valid ng-touched">
+            <button class="btn mt-4 mb-3 text-white" style="background-color: #1abc9c;"> send Message </button>
+        </form>
+    </div>
+</section>
+
